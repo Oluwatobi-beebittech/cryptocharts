@@ -7,7 +7,7 @@ function App() {
     <div className="crypto">
       <header className="w-screen h-16 bg-blue-800">
         <div className="w-3/4 mx-auto h-full">
-          <h1 className="text-white pt-4 font-bold">CryptoCharts</h1>
+          <h1 className="text-white pt-4 font-bold">ChartsCrypto</h1>
         </div>
 
         <div className="mt-10 rounded-lg bg-blue-50 w-3/4 mx-auto p-3">
