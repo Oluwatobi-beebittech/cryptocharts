@@ -6,7 +6,7 @@ export default function CryptoPie(props) {
   props.cryptoList.map((cryptoObj) => {
     crypto.push({
       name: cryptoObj.coin,
-      y: parseInt(cryptoObj.value),
+      y: parseFloat(cryptoObj.value),
       sliced: true,
     });
     return 0;
