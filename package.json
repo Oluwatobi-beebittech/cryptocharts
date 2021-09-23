@@ -46,6 +46,7 @@
     "autoprefixer": "^9.8.6",
     "jest": "^26.6.0",
     "postcss": "^7.0.36",
+    "react-styleguidist": "^11.1.7",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.14"
   }
 }
