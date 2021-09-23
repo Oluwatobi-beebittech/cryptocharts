@@ -3,6 +3,7 @@ import HighchartsReact from "highcharts-react-official";
 
 export default function CryptoPie(props) {
   const crypto = [];
+
   props.cryptoList.map((cryptoObj) => {
     crypto.push({
       name: cryptoObj.coin,
@@ -11,6 +12,7 @@ export default function CryptoPie(props) {
     });
     return 0;
   });
+
   const options = {
     chart: {
       plotBackgroundColor: null,
