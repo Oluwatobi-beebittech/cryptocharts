@@ -95,6 +95,13 @@ class Allocation extends Component {
                 <option>2020</option>
                 <option>2019</option>
                 <option>2018</option>
+                <option>2017</option>
+                <option>2016</option>
+                <option>2015</option>
+                <option>2014</option>
+                <option>2013</option>
+                <option>2012</option>
+                <option>2011</option>
               </select>
             </React.Fragment>
           </div>
@@ -110,6 +117,13 @@ class Allocation extends Component {
               <option>2020</option>
               <option>2019</option>
               <option>2018</option>
+              <option>2017</option>
+              <option>2016</option>
+              <option>2015</option>
+              <option>2014</option>
+              <option>2013</option>
+              <option>2012</option>
+              <option>2011</option>
             </select>
           </div>
 
@@ -152,7 +166,9 @@ class Allocation extends Component {
           {totalPortfolioPercent}%
         </p>
         <p className="text-right text-red-500">{message}</p>
-
+        <button className="rounded-lg px-2 py-1 bg-green-600 text-white">
+          + Add Asset
+        </button>
         <button
           className="block rounded-lg mx-auto w-2/3 bg-blue-600 py-1 px-3 text-white"
           onClick={() => this.handleAnalyze(totalPortfolioPercent)}
