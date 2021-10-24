@@ -101,7 +101,7 @@ class Allocation extends Component {
                 <option>2014</option>
                 <option>2013</option>
                 <option>2012</option>
-                
+                <option>2011</option>
               </select>
             </React.Fragment>
           </div>
